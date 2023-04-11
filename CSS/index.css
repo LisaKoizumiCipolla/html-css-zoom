@@ -6,8 +6,8 @@
 
 body{
     font-family: 'Rubik', sans-serif;
-    padding-top: 30px;
-    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-bottom: 80px;
     background-color: black;
     overflow: hidden;
     
@@ -17,42 +17,41 @@ body{
     display: flex;
 }
 
-nav{
+.bar{
     position: fixed;
     display: flex;
     z-index: 1;
     width: 100%;
+    position: absolute;
 }
 
-header>nav{
+header>div{
     top: 0;
-    height: 30px;
-    background-color: aqua;
+    height: 70px;
 }
 
-footer>nav{
+footer>div{
     bottom: 0;
-    height: 70px;
+    height: 80px;
     background-color: aquamarine;
 }
 
 .container{
     max-width: 95vw;
     margin: 0 auto;
-    height: 90vh;
+    height: 82vh;
     flex-wrap: wrap;
     overflow-y: hidden scroll;
     overflow-x: hidden;
-    justify-content: space-evenly;
+    justify-content: space-evenly;;
 }
 
 img{
-    height: 160px;
     width: 250px;
 }
 
 .user{
-    height: 160px;
+    height: 150px;
     width: 250px;
     position: relative;
 }
@@ -66,4 +65,23 @@ img{
     display: inline-block;
     font-size: 0.8rem;
     padding: 5px;
+}
+
+.top-bar{
+    justify-content: end;
+}
+
+button{
+    border: none;
+}
+
+.top-button{
+    background-color: #4a4a4a;
+    color: white;
+    border-radius: 5px;
+    padding:0 6px 2px;
+    height: 23px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
 }
