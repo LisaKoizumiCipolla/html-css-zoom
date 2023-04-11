@@ -79,11 +79,12 @@ button{
 .top-button{
     background-color: #4a4a4a;
     border-radius: 4px;
-    padding:0 6px 2px;
+    padding:3px 6px 2px;
     height: 23px;
     margin: 5px;
+    justify-content: center;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .bottom-bar{
@@ -101,22 +102,18 @@ button{
 
 p{
     margin-top: 10px;
-}
-
-.mute{
-    width: 50px;
+    font-weight: 500;
 }
 
 .arrow{
     align-items: center;
 }
 
-.end-meeting-button{
+#end-meeting-button{
     padding: 0 20px;
     font-size: 0.85rem;
     font-weight: 500;
     background-color: #4a4a4a;
     color: #f12118;
     text-align: center;
-    align-items: center;
 }
