@@ -49,5 +49,21 @@ footer>nav{
 img{
     height: 160px;
     width: 250px;
+}
+
+.user{
+    height: 160px;
+    width: 250px;
     position: relative;
+}
+
+.username{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 5px;
 }
