@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+}
+
+header>nav{
+    top: 0;
+    height: 30px;
+    background-color: aqua;
+}
+
+footer>nav{
+    bottom: 0;
+    height: 70px;
+    background-color: aquamarine;
+}
+
+.container{
+    max-width: 95vw;
+    margin: 0 auto;
+    height: 90vh;
+    flex-wrap: wrap;
+    overflow-y: hidden scroll;
+    overflow-x: hidden;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 160px;
+    width: 250px;
+    position: relative;
+}
