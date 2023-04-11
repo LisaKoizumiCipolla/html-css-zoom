@@ -33,7 +33,7 @@ header>div{
 footer>div{
     bottom: 0;
     height: 80px;
-    background-color: aquamarine;
+    background-color: #222222;
 }
 
 .container{
@@ -73,15 +73,50 @@ img{
 
 button{
     border: none;
+    color: white;
 }
 
 .top-button{
     background-color: #4a4a4a;
-    color: white;
-    border-radius: 5px;
+    border-radius: 4px;
     padding:0 6px 2px;
     height: 23px;
     margin: 5px;
     text-align: center;
     font-weight: bold;
+}
+
+.bottom-bar{
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.bottom-bar button{
+    padding: 0 10px;
+    flex-direction: column;
+    height: 80px;
+    background-color: #222222;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.mute{
+    width: 50px;
+}
+
+.arrow{
+    align-items: center;
+}
+
+.end-meeting-button{
+    padding: 0 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background-color: #4a4a4a;
+    color: #f12118;
+    text-align: center;
+    align-items: center;
 }
