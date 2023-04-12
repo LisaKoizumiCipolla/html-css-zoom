@@ -20,7 +20,6 @@ body{
 .bar{
     position: fixed;
     display: flex;
-    z-index: 1;
     width: 100%;
     position: absolute;
 }
@@ -39,9 +38,9 @@ footer>div{
 .container{
     max-width: 95vw;
     margin: 0 auto;
-    height: 82vh;
+    height: calc(100vh - 150px);
     flex-wrap: wrap;
-    overflow-y: hidden scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     justify-content: space-evenly;;
 }
@@ -54,6 +53,13 @@ img{
     height: 150px;
     width: 250px;
     position: relative;
+    border: 4px solid black;
+}
+
+.user img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .username{
@@ -61,7 +67,7 @@ img{
     left: 0;
     bottom: 0;
     color: white;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.45);
     display: inline-block;
     font-size: 0.8rem;
     padding: 5px;
